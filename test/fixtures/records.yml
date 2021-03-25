@@ -2,8 +2,8 @@
 
 one:
   title: MyString
-  artist_name: one
+  price: 9.99
 
 two:
   title: MyString
-  artist_name: two
+  price: 9.99
