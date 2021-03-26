@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :shop, only:[:index, :show]
   resources :records
+  resources :order_itemlists
+
   devise_for :users
   resources :friends
   #get 'home/index'

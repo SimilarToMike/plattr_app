@@ -5,5 +5,6 @@ class User < ApplicationRecord
 
          has_many :friends
 
-  has_many :order
+  has_one_attached :avatar
+ 
 end
